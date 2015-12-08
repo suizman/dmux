@@ -14,7 +14,7 @@ script:
   - docker build -t suizman/dmux:latest .
 
 after_success:
-  - docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
+  - docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" -e "$DOCKER_EMAIL"
   - docker push suizman/dmux:latest
 
 notifications:
