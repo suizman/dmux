@@ -16,7 +16,17 @@ COPY conf/PowerlineSymbols.otf /usr/share/fonts/PowerlineSymbols.otf
 COPY conf/tmux.conf /root/.tmux.conf
 
 # Refresh config
-RUN fc-cache -vf
+RUN fc-cache
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Add dmux personal conf
+RUN echo "source ~/.dmux.conf" >> /root/.zshrc
+COPY conf/dmux.conf /root/.dmux.conf
+
+# Add entrypoint
+COPY scripts/entrypoint.sh /usr/local/bin/entrypoint.sh
+
+# The entrypoint
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]

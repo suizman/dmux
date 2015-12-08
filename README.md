@@ -12,9 +12,11 @@
 
 ## Basic Installation
 
-#### Add this at the end of your ~/.bashrc|~/.zshrc
-```alias dockermux="export DOCKER_HOST=localhost:2375 && docker run --rm -ti suizman/dmux tmux"```
+#### Via curl
+```bash -c "$(curl -fsSL https://raw.githubusercontent.com/suizman/kickass-linux/master/install.sh)"```
 
-or
+#### Via wget
+```bash -c "$(wget https://raw.githubusercontent.com/suizman/kickass-linux/master/install.sh -O -)"```
 
-```alias dockermux="sudo docker run --rm -ti suizman/dmux tmux"```
+## Custom variables
+```vim ~/.dmux/conf/dmux.conf```
