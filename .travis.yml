@@ -11,7 +11,11 @@ before_install:
 
 script:
   # Install required ansible roles
-  - docker build -t suizman/dmux .
+  - docker build -t suizman/dmux:latest .
+
+after_success:
+  - docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
+  - docker push suizman/dmux:latest
 
 notifications:
   webhooks:
