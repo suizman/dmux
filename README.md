@@ -4,9 +4,7 @@
 [![Build Status](http://img.shields.io/travis/suizman/dmux.svg?style=flat-square)][travis]
 [travis]: http://travis-ci.org/suizman/dmux
 
-```WARNING: Work in progress! Still have several bugs to be fixed on non Arch Linux or Debian distros..```
-
-KickAss Linux is a simple way to turn your favorite Linux distro into a powerful & beautiful workstation including all kind of goodies to improve Terminal or GUI but minimizing resource consumption too.
+```WARNING: Work in progress! Still have several bugs...```
 
 # Requirements
 
