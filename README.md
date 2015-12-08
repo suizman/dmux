@@ -13,10 +13,10 @@
 ## Basic Installation
 
 #### Via curl
-```bash -c "$(curl -fsSL https://raw.githubusercontent.com/suizman/kickass-linux/master/install.sh)"```
+```bash -c "$(curl -fsSL https://raw.githubusercontent.com/suizman/dmux/master/install.sh)"```
 
 #### Via wget
-```bash -c "$(wget https://raw.githubusercontent.com/suizman/kickass-linux/master/install.sh -O -)"```
+```bash -c "$(wget https://raw.githubusercontent.com/suizman/dmux/master/install.sh -O -)"```
 
 ## Custom variables
 ```vim ~/.dmux/conf/dmux.conf```
