@@ -17,7 +17,7 @@ git clone https://github.com/suizman/dmux ~/.dmux
 # Get the container
 function install_dmux (){
   echo -e "Pulling dmux container..\n"
-  docker pull suizman/dmux:latest
+  sudo docker pull suizman/dmux:latest
 }
 
 # Configure dmux alias for bash|zsh
