@@ -1,4 +1,5 @@
 # Docker Tmux environment
+![Docker Tmux environment](images/dmux-logo.png)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/suizman/dmux?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](http://img.shields.io/travis/suizman/dmux.svg?style=flat-square)][travis]
