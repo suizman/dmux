@@ -10,7 +10,6 @@ before_install:
   - sudo apt-get update -qq
 
 script:
-  # Install required ansible roles
   - docker build -t suizman/dmux:latest .
 
 after_success:
