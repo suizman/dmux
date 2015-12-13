@@ -13,6 +13,8 @@
 
 ## Basic Installation
 
+[![asciicast](https://asciinema.org/a/31736.png)](https://asciinema.org/a/31736)
+
 #### Via curl
 ```bash -c "$(curl -fsSL https://raw.githubusercontent.com/suizman/dmux/master/install.sh)"```
 
