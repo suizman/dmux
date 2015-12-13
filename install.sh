@@ -26,6 +26,7 @@ function configure_bash (){
   if [[ -f ~/.bashrc ]]; then
     echo -e "Configuring Bash alias..\n"
     echo 'alias dmux="sudo docker run --rm -ti -v ~/.dmux/conf/dmux.conf:/root/.dmux.conf suizman/dmux:latest"' >> ~/.bashrc
+    source ~/.bashrc
   fi
 }
 
@@ -34,6 +35,7 @@ function configure_zsh (){
   if [[ -f ~/.bashrc ]]; then
     echo -e "Configuring Zsh alias..\n"
     echo 'alias dmux="sudo docker run --rm -ti -v ~/.dmux/conf/dmux.conf:/root/.dmux.conf suizman/dmux:latest"' >> ~/.zshrc
+    source ~/.bashrc
   fi
 }
 
