@@ -2,8 +2,7 @@
 ![Docker Tmux environment](images/dmux-logo.png)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/suizman/dmux?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](http://img.shields.io/travis/suizman/dmux.svg?style=flat-square)][travis]
-[travis]: http://travis-ci.org/suizman/dmux
+[![Build Status](https://travis-ci.org/suizman/dmux.svg?branch=master)](https://travis-ci.org/suizman/dmux)
 
 ```WARNING: Work in progress! Still have several bugs...```
 
